@@ -1,3 +1,8 @@
 .title-1 {
-  color: red;
+  color: rgb(35, 42, 107);
+  margin-left: 380px;
+}
+
+p {
+  width: 500;
 }
