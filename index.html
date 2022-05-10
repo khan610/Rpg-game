@@ -16,14 +16,14 @@
       <article>
         <p class="paragraph-1">
           Large army of Orcs and Goblins is sieging the Fortess of Azergath. As
-          one of the Iron Brotherhood merceneries your job will be to hold east
+          one of the Iron Brotherhood merceneries your job will be to hold west
           wall against enemy onslaught. You are the leader of mercenery veterans
           with rank Captain. Decisions you make could impact the Defence of
           Azergath, not to mention couse your untimely death.
         </p>
 
         <button class="btn btn-start">START GAME</button>
-        <button class="btn btn-info">MORE INFO</button>
+        <button class="btn btn-info show-modal">MORE INFO</button>
         <button class="btn btn-quit">QUIT GAME</button>
         <button class="btn btn-continue hidden">CONTINUE</button>
       </article>
@@ -31,7 +31,33 @@
         <p class="copyright-text">Copyright &copy; 2022 by Khan Grande.</p>
       </footer>
     </div>
-    <div class="overlay hidden"></div>
+
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1 class="modal-title">Hold the line or die trying❗</h1>
+      <ul>
+        <li>Moral effect your troops defence and attack bonus</li>
+        <li>Better decision you make in battle higher moral of your troops</li>
+        <li>
+          You will have set time to make each decision, sometimes hesitation
+          will cost you sometimes being patient will be rewarded, chuse wisely
+        </li>
+        <li>
+          You have melee and range troops position them proprly in difrent
+          situations
+        </li>
+        <li>Mages have powerfull spells but long cooldown, use them wisely</li>
+      </ul>
+      <h1 class="modal-title">Barracks</h1>
+      <ul>
+        <li>How many melee troops you have left: 300 🔱</li>
+        <li>How many ranged troops you have left: 300 ♐</li>
+        <li>Mages left: 5 🔆</li>
+      </ul>
+
+      <p></p>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
